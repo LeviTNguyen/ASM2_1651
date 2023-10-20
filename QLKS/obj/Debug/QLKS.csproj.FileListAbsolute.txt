@@ -1,0 +1,7 @@
+C:\Users\ADMIN\source\repos\QLKS\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\ADMIN\source\repos\QLKS\QLKS\bin\Debug\QLKS.exe
+C:\Users\ADMIN\source\repos\QLKS\QLKS\bin\Debug\QLKS.pdb
+C:\Users\ADMIN\source\repos\QLKS\QLKS\obj\Debug\QLKS.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\QLKS\QLKS\obj\Debug\QLKS.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\QLKS\QLKS\obj\Debug\QLKS.exe
+C:\Users\ADMIN\source\repos\QLKS\QLKS\obj\Debug\QLKS.pdb
