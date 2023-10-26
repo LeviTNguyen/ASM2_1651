@@ -13,7 +13,35 @@ namespace QLKS
         public bool IsOccupied { get; set; }
 
         public abstract void DisplayInfo();
-        public abstract void CheckOut();
+    }
+
+    public class SingleRoom : Room
+    {
+        public SingleRoom(int roomNumber, double roomPrice)
+        {
+            RoomNumber = roomNumber;
+            RoomPrice = roomPrice;
+            IsOccupied = false; // Ban đầu, phòng không được thuê
+        }
+
+        public override void DisplayInfo()
+        {
+            Console.WriteLine($"Single Room number {RoomNumber} - Price: {RoomPrice} USD/night - {(IsOccupied ? "Occupied" : "Vacant")}");
+        }
+    }
+    public class DoubleRoom : Room
+    {
+        public DoubleRoom(int roomNumber, double roomPrice)
+        {
+            RoomNumber = roomNumber;
+            RoomPrice = roomPrice;
+            IsOccupied = false; // Set to false by default
+        }
+
+        public override void DisplayInfo()
+        {
+            Console.WriteLine($"Double Room number {RoomNumber} - Price: {RoomPrice} USD/night - {(IsOccupied ? "Occupied" : "Vacant")}");
+        }
     }
 
 }
